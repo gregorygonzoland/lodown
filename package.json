@@ -1,0 +1,29 @@
+{
+  "name": "lodown-greggonzaleslandry",
+  "version": "1.0.0",
+  "description": "An npm functional programming library project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregorygonzoland/lodown.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gregorygonzoland/lodown/issues"
+  },
+  "homepage": "https://github.com/gregorygonzoland/lodown#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  }
+}
